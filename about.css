@@ -1,0 +1,49 @@
+.navbar{
+    background: #6cae22;
+}
+
+
+ body{
+    background: url(backimage.jpg);
+}
+.btn{
+    background: #6cae22;
+}
+h2{
+	color:black;
+	font-size:75px;
+}
+.SocialLogos img {
+
+	width:40px;
+	height:40px;
+}
+
+
+
+.footer {
+    display :block;
+   left:0;
+   bottom: 0;
+   padding:1.5%;
+   height:20%;
+   width: 100%;
+   background-color: #6cae22;
+   color:white;
+   text-align: center;
+   border:2px solid #333;
+}
+.about-text{
+    color:black;
+}
+
+.form1{
+	background-color:#6cae22;
+	border:5px solid #6cae22;
+	padding:10px;
+	width:600x;
+
+	background:#6cae22;
+    font-size:20px;
+    text-align: left;
+}

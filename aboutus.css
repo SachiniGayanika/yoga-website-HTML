@@ -1,0 +1,36 @@
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    background-color: rgb(174, 231, 188);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color:#6cae22;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price{
+    color:#6cae22 ;
+    font-size: 2.5rem;
+    padding: .5rem 0;
+}
+
+.menu .box-container .box:hover{
+    background-color:#6cae22; ;
+}
+
+.menu .box-container .box:hover > *{
+    color: var(--black);
+}
